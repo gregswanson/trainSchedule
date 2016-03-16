@@ -1,0 +1,81 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/digital-7.ttf);
+}
+
+@font-face {
+    font-family: mySecondFont;
+    src: url(../fonts/SUBWT___.ttf);
+}
+
+
+ body {
+ 	font-family: 'Open Sans', sans-serif;
+ 	background-color: #f5f5f5;
+ 	color: #000;
+ }
+
+ .jumbotron {
+ 	background-image: url("../images/traintracks.jpg");
+	background-size: cover;
+	border: 1px solid #000;
+	color: #fff;
+ }
+
+ .jumbotron > .title {
+ 	font-family: mySecondFont, 'Open Sans', sans-serif;
+ 	font-size: 80px;
+ 	text-shadow: 2px 2px 8px #000;
+ }
+
+ .jumbotron > p {
+	color: #fffe9f;
+ 	font-weight: 500;
+ 	font-size: 20px;
+ }
+
+.digital {
+	font-family: myFirstFont, 'Open Sans', sans-serif;
+	font-size: 18px;
+	letter-spacing: 2px;
+}
+
+.tableHead {
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.tableTitle {
+	font-size: 18px;
+	font-weight: 700;
+}
+
+
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+   background-color: #fffe9f;
+ }
+ 
+
+.panel-default {
+	border-color: #000;
+}
+
+
+.panel-default > .panel-heading {
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+}
+
+.btn {
+	background-color: #000;
+	color: #fff;
+
+}
+
+.btn:hover {
+	background-color: #fffe9f;
+	color: #000;
+	border-color: #000;
+}
